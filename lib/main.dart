@@ -1,5 +1,14 @@
+import 'package:aplication_1/formulario.dart';
 import 'package:flutter/material.dart';
-import 'Principal.dart';
+
 void main() {
-  runApp(const Principal());
+
+  runApp(
+
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Formulario(),
+    ),
+
+  );
 }
